@@ -113,4 +113,6 @@ reactive(massPopulate('login', {
 
 ---
 
+Feel free to create issue to make this package better!
+
 _Made with love by [@stephen_khoo](https://twitter.com/stephen_khoo)_
