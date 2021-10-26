@@ -1,4 +1,4 @@
-const populator = require('../');
+const populator = require('../src/');
 
 const populateData = {
   domain_1: {
