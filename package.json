@@ -1,5 +1,5 @@
 {
-  "name": "stephenkhoo/populator",
+  "name": "@stephenkhoo/populator",
   "version": "1.0.0",
   "description": "Quick populate your form fields with your preset values on development.",
   "main": "index.js",
@@ -7,8 +7,8 @@
     "test": "jest"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Stephen Khoo",
+  "license": "MIT",
   "devDependencies": {
     "jest": "^27.3.1"
   }
