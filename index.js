@@ -4,8 +4,11 @@ module.exports = function (shouldPopulate, populateData) {
     if (!shouldPopulate) return initialValue;
 
     let populateValue = populateData[domain][name];
+    if (initialValue === null || initialValue === undefined) {
+      throw new Error('Initial Value is invalid');
+    }
     if (populateValue.constructor.name !== initialValue.constructor.name) {
-      console.error('Type of initial value is not match with provided populate data\'s value');
+      throw new TypeError(`${domain}.${name} is ${populateValue.constructor.name}, and initial value is ${initialValue.constructor.name}`);
     }
 
     return populateData[domain][name];
@@ -22,8 +25,8 @@ module.exports = function (shouldPopulate, populateData) {
     if (!shouldPopulate) return fields;
 
     let result = {};
-    Object.keys(fields).forEach((name) => {
-      result[name] = filler(domain, name);
+    Object.entries(fields).forEach(([name, initialValue]) => {
+      result[name] = populate(domain, name, initialValue);
     });
 
     return result;
