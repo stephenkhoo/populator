@@ -6,14 +6,14 @@ This package will help you fill your SPA forms with your preset data, and you ca
 ## Usage
 Install your dependency
 ```bash
-npm install stephenkhoo/populator
+npm install @stephenkhoo/populator
 ```
 
 ## Examples
 ### Using single field populate
 ```js
 // Create a file mypopulator.js
-const populator = require('stephenkhoo/populator');
+const populator = require('@stephenkhoo/populator');
 
 // You define your data to be filled with three layer
 // domain > name of the field > value to be populated
@@ -63,7 +63,7 @@ reactive({
 ### Using mass populate
 ```js
 // Create a file mypopulator.js
-const populator = require('stephenkhoo/populator');
+const populator = require('@stephenkhoo/populator');
 
 // Main part of setup is the same
 const populateData = {
