@@ -1,0 +1,15 @@
+{
+  "name": "stephenkhoo/populator",
+  "version": "1.0.0",
+  "description": "Quick populate your form fields with your preset values on development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
