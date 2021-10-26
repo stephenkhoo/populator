@@ -1,6 +1,6 @@
 {
   "name": "@stephenkhoo/populator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quick populate your form fields with your preset values on development.",
   "main": "src/index.js",
   "scripts": {
