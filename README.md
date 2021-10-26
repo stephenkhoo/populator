@@ -1,6 +1,7 @@
 # Populator
 Ever find yourself spending more time in filling forms than spending time coding?
-This package will help you fill your spa forms with your preset data, and you can easily set the condition of using it or not with your environment variable at compilation with tool of your choice!
+
+This package will help you fill your SPA forms with your preset data, and you can easily set the condition of using it or not with your environment variable at compilation with tool of your choice!
 
 ## Usage
 Install your dependency
